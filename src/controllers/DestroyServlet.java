@@ -50,7 +50,7 @@ public class DestroyServlet extends HttpServlet {
 
             // indexページへリダイレクト
             response.sendRedirect(request.getContextPath() + "/index");
-        } else {}
+        }
     }
 
 }
